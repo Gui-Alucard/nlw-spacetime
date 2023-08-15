@@ -13,13 +13,20 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.2.1",
+    "dotenv": "^16.3.1",
     "eslint": "^8.41.0",
-    "prisma": "^4.14.1",
+    "prisma": "^5.1.1",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@prisma/client": "^4.14.1",
-    "fastify": "^4.17.0"
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.0",
+    "@fastify/multipart": "^7.7.3",
+    "@fastify/static": "^6.10.2",
+    "@prisma/client": "^5.1.1",
+    "axios": "^1.4.0",
+    "fastify": "^4.17.0",
+    "zod": "^3.21.4"
   }
 }
